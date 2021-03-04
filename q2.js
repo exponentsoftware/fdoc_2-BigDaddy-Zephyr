@@ -70,3 +70,17 @@ for(let i=0;i<users.length;i++){
 	}
 }
 }
+
+function editUser(user){
+for(let i=0;i<users.length;i++){
+	if(users[i].name==user.name){
+		users[i].scores=user.score;
+		users[i].skills=user.skills;
+		users[i].age=user.age;
+
+	}
+}
+
+
+
+}
